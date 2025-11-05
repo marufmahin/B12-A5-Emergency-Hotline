@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service</title>
+
+    <!--hind-madurai fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Roboto fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- tailwind & daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        .madurai{
+            font-family: "Hind Madurai", sans-serif;
+        }
+        .roboto{
+             font-family: "Roboto", sans-serif
+        }
+    </style>
+
+</head>
+<body>
+    <header class="max-w-[1140px] mx-auto">
+
+        <!-- Nav  -->
+        <nav>
+
+            <section class="lg:mx-[60px] flex justify-between items-center my-6">
+
+            <div class="flex items-center gap-2">
+               <img class="w-14 h-14" src="./assets/logo.png" alt="">
+               <h3 class="text-2xl font-extrabold text-[#006747]">Emergency <br> Service</h3> 
+            </div>
+
+            <div class="hidden lg:flex md:flex justify-center items-center gap-5">
+                <div class="flex gap-2 bg-[#41ff6b1a] px-9 py-4 rounded-[50px]">
+                    <span class="text-black font-bold text-xl">0</span>
+                    <img class="h-7 w-7" src="./assets/heart.png" alt="">
+                </div>
+                <div class="flex gap-2 bg-[#41ff6b1a] px-8 py-4 rounded-[50px]">
+                    <span class="text-black font-bold text-xl">100</span>
+                    <img class="h-7 w-7" src="./assets/coin.png" alt="">
+                </div>
+
+                <button class="btn bg-[#00A63E] text-white text-xl font-bold rounded-[50px] px-8 py-7"><span class="text-white font-bold text-xl">2</span>Copy</button>
+             </div>
+
+
+            <details class="lg:hidden md:hidden my-5">
+
+            <summary class="text-black text-center text-3xl cursor-pointer list-none">
+              <i class="fa-solid fa-bars"></i>
+            </summary>
+
+            <div class="flex flex-col gap-4 mt-3 p-4 rounded-md text-black font-semibold" >
+
+                <div class="flex gap-2 bg-[#41ff6b1a] px-9 py-4 rounded-[50px]">
+                    <span class="text-black font-bold text-xl">0</span>
+                    <img class="h-7 w-7" src="./assets/heart.png" alt="">
+                </div>
+                <div class="flex gap-2 bg-[#41ff6b1a] px-8 py-4 rounded-[50px]">
+                    <span class="text-black font-bold text-xl">100</span>
+                    <img class="h-7 w-7" src="./assets/coin.png" alt="">
+                </div>
+
+                <button class="btn bg-[#00A63E] text-white text-xl font-bold rounded-[50px] px-8 py-7"><span class="text-white font-bold text-xl">2</span>Copy</button>   
+            </div>
+          </details>  
+         </section>
+        </nav>
+
+        <!-- Banner -->
+         <section class="w-full bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] text-center px-14 py-3">
+
+            <img class="w-[90px] h-[90px] mx-auto" src="./assets/logo.png" alt="">
+            <h2 class="font-[roboto] font-bold text-white text-4xl my-3">Emergency Service Directory</h2>
+            <p class="font-[roboto] font-semibold text-white text-xl">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+
+         </section>
+    </header>
+    
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
