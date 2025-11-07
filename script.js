@@ -54,7 +54,7 @@ for(const btn of callButtons){
       let currentCoinMobile = totalCoinMobile && totalCoinMobile.innerText? Number(totalCoinMobile.innerText): currentCoinDesktop;
 
       if(currentCoinDesktop < 20 || currentCoinMobile < 20){
-        alert("❌ Insufficient Coin")
+        alert("Insufficient Coin. Minimum 20 coins required to make a call")
         return
       }
       else{
@@ -98,6 +98,22 @@ for(const btn of callButtons){
     })
    
 }
+
+const clearBtnDesktop = document.getElementById('clear-btn-desktop');
+const clearBtnMobile = document.getElementById('clear-btn-mobile');
+
+const historyContainerDesktop = document.getElementById("history-container-desktop");
+const historyContainerMobile = document.getElementById("history-container-mobile");
+
+clearBtnDesktop.addEventListener('click', function() {
+  historyContainerDesktop.innerHTML = "";
+  historyContainerMobile.innerHTML = "";
+});
+
+clearBtnMobile.addEventListener('click', function() {
+  historyContainerDesktop.innerHTML = "";
+  historyContainerMobile.innerHTML = "";
+});
 
 
 
