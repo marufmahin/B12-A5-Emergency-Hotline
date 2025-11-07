@@ -55,7 +55,7 @@
                     <img class="h-7 w-7" src="./assets/coin.png" alt="">
                 </div>
 
-                <button class="btn bg-[#00A63E] text-white text-xl font-bold rounded-[50px] px-8 py-7 hover:bg-gray-400"><span class=" ">2</span>Copy</button>
+                <button  class=" btn bg-[#00A63E] text-white text-xl font-bold rounded-[50px] px-8 py-7 hover:bg-gray-400"><span id="copy-count-desktop">0</span>Copy</button>
              </div>
 
 
@@ -76,7 +76,7 @@
                     <img class="h-7 w-7" src="./assets/coin.png" alt="">
                 </div>
 
-                <button class="btn bg-[#00A63E] text-white text-xl font-bold rounded-[50px] px-8 py-7 hover:bg-gray-400"><span class=" ">2</span>Copy</button>
+                <button class=" btn bg-[#00A63E] text-white text-xl font-bold rounded-[50px] px-8 py-7 hover:bg-gray-400"><span id="copy-count-mobile">0</span>Copy</button>
 
             </div>
           </details>  
@@ -111,11 +111,11 @@
                     <h3 id="emergency-service" class="text-[#5C5C5C]">National Emergency</h3>
                 </div>
                 <div>
-                    <h2 id="emergency-number" class="text-[#111111] font-bold text-3xl">999</h2>
+                    <h2 class="services text-[#111111] font-bold text-3xl">999</h2>
                     <button class="text-[#5C5C5C] px-3  bg-[#F2F2F2] rounded-2xl">All</button>
                 </div>
                 <div class="flex mt-6 gap-2">
-                    <button class="flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
+                    <button class="copy-btn flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
 
                     <button id="emergency-btn"  class="flex gap-2 justify-center border-2 w-[48%] px-6 py-3 border-green-500 bg-[#00A63E] rounded-[8px] text-white cursor-pointer hover:bg-gray-400"><img src="./assets/Vector.png" alt="">Call</button>
                     
@@ -138,7 +138,7 @@
                     <button class="text-[#5C5C5C] px-3  bg-[#F2F2F2] rounded-2xl">Police</button>
                 </div>
                 <div class="flex mt-6 gap-2">
-                    <button class="flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
+                    <button class="copy-btn flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
 
                     <button id="call-police" class="flex gap-2 justify-center border-2 w-[48%] px-6 py-3 border-green-500 bg-[#00A63E] rounded-[8px] text-white cursor-pointer hover:bg-gray-400"><img src="./assets/Vector.png" alt="">Call</button>
                     
@@ -161,7 +161,7 @@
                     <button class="text-[#5C5C5C] px-3  bg-[#F2F2F2] rounded-2xl">Fire</button>
                 </div>
                 <div class="flex mt-6 gap-2">
-                    <button class="flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
+                    <button class="copy-btn flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
 
                     <button id="call-fire-service" class="flex gap-2 justify-center border-2 w-[48%] px-6 py-3 border-green-500 bg-[#00A63E] rounded-[8px] text-white cursor-pointer hover:bg-gray-400"><img src="./assets/Vector.png" alt="">Call</button>
                     
@@ -206,7 +206,7 @@
                     <button class="text-[#5C5C5C] px-3  bg-[#F2F2F2] rounded-2xl">Health</button>
                 </div>
                 <div class="flex mt-6 gap-2">
-                    <button class="flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
+                    <button class="copy-btn flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
 
                     <button id="call-ambulance" class="flex gap-2 justify-center border-2 w-[48%] px-6 py-3 border-green-500 bg-[#00A63E] rounded-[8px] text-white cursor-pointer hover:bg-gray-400"><img src="./assets/Vector.png" alt="">Call</button>
                     
@@ -229,7 +229,7 @@
                     <button class="text-[#5C5C5C] px-3  bg-[#F2F2F2] rounded-2xl">Help</button>
                 </div>
                 <div class="flex mt-6 gap-2">
-                    <button class="flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
+                    <button class="copy-btn flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
 
                     <button id="call-childcare" class="flex gap-2 justify-center border-2 w-[48%] px-6 py-3 border-green-500 bg-[#00A63E] rounded-[8px] text-white cursor-pointer hover:bg-gray-400"><img src="./assets/Vector.png" alt="">Call</button>
                     
@@ -252,7 +252,7 @@
                     <button class="text-[#5C5C5C] px-3  bg-[#F2F2F2] rounded-2xl">Govt.</button>
                 </div>
                 <div class="flex mt-6 gap-2">
-                    <button class="flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
+                    <button class="copy-btn flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
 
                     <button id="corruption-btn" class="flex gap-2 justify-center border-2 w-[48%] px-6 py-3 border-green-500 bg-[#00A63E] rounded-[8px] text-white cursor-pointer hover:bg-gray-400"><img src="./assets/Vector.png" alt="">Call</button>
                     
@@ -275,7 +275,7 @@
                     <button class="text-[#5C5C5C] px-3  bg-[#F2F2F2] rounded-2xl">Electricity</button>
                 </div>
                 <div class="flex mt-6 gap-2">
-                    <button class="flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
+                    <button class="copy-btn flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
 
                     <button id="electricity-btn" class="flex gap-2 justify-center border-2 w-[48%] px-6 py-3 border-green-500 bg-[#00A63E] rounded-[8px] text-white cursor-pointer hover:bg-gray-400"><img src="./assets/Vector.png" alt="">Call</button>
                     
@@ -298,7 +298,7 @@
                     <button class="text-[#5C5C5C] px-3  bg-[#F2F2F2] rounded-2xl">NGO</button>
                 </div>
                 <div class="flex mt-6 gap-2">
-                    <button class="flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
+                    <button class="copy-btn flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
 
                     <button id="brac-btn" class="flex gap-2 justify-center border-2 w-[48%] px-6 py-3 border-green-500 bg-[#00A63E] rounded-[8px] text-white cursor-pointer hover:bg-gray-400"><img src="./assets/Vector.png" alt="">Call</button>
                     
@@ -321,7 +321,7 @@
                     <button class="text-[#5C5C5C] px-3  bg-[#F2F2F2] rounded-2xl">Travel</button>
                 </div>
                 <div class="flex mt-6 gap-2">
-                    <button class="flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
+                    <button class="copy-btn flex justify-center gap-2 border-2 w-[48%] px-6 py-3 border-[#D4D6D5] rounded-[8px] text-[#5C5C5C] cursor-pointer hover:bg-gray-400"><img src="./assets/copy.png" alt="">Copy</button>
 
                     <button id="railway-btn" class="flex gap-2 justify-center border-2 w-[48%] px-6 py-3 border-green-500 bg-[#00A63E] rounded-[8px] text-white cursor-pointer hover:bg-gray-400"><img src="./assets/Vector.png" alt="">Call</button>
                     
